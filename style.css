@@ -49,6 +49,8 @@ body{
     display: flex;
         justify-content: center;
         align-items:center;
+        border-radius: 10px;
+    /* border: solid black 1px; */
   }
   .logot{
     width: 100px;
@@ -56,12 +58,14 @@ body{
   .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    
   }
   
   .slider img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+ 
     
   }
   .icons{
@@ -86,7 +90,7 @@ width: 12px;
     border: none;
     font-size: 24px;
     color: white;
-    background-color:  rgba(5, 5, 5, 0.9);
+    background-color:  rgba(58, 55, 55, 0.9);
     border-radius: 50%;
     
   }

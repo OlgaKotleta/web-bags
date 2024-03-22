@@ -1,0 +1,19 @@
+/* 1140px */
+
+@media (max-width : 1140px) {
+
+
+.container{
+    
+    
+    }
+   .slider-container{
+    width: 500px;
+   }
+.slider{
+    width: 500px;
+}
+
+
+  }
+
