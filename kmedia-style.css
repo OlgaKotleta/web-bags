@@ -1,0 +1,128 @@
+@media (max-width : 1140px) {
+
+
+    .container{
+      width: 500px;
+      
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        
+    }
+    .logo{
+        width: 160px;
+        text-align:start;
+    }
+    
+    
+    .contacts{
+        text-align:end;
+        padding-top:20px;
+        font-size: 20px;
+    }
+    
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 50px;
+        place-self: left;
+        width: 500px;
+    }
+
+    .content__items{
+        /* height: 100px; */
+        place-self: center;
+        padding: 15px;
+        
+    }
+
+    .TEXT{
+        text-align: center;
+        margin-top: 7px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 24px;
+        font-weight: 5000;
+    }
+    
+    .TEXT1{
+        text-align: center;
+        font-weight: 700;
+        margin-top: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:520px){
+
+    .container{
+        width: 300px;
+        
+      
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: 120px 70px 185px;
+        /* grid-template-rows: 1fr 1fr 1fr 300px; */  
+    }
+
+    .bazS{
+        align-self: center;
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+      
+    }
+
+    .contacts{
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .logo{
+      width: 100px;
+      text-align:start;
+    }
+
+    .logot{
+        width: 90px;
+    }
+
+    .content{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin-top: 50px;
+      place-self: left;
+      
+    }
+  
+    .content__items{
+      /* height: 100px; */
+      place-self: center;
+      padding: 15px;
+      
+    }
+
+
+
+
+}
