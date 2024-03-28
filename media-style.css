@@ -111,13 +111,13 @@
   @media(max-width:520px){
 
     .container{
-      width: 300px;
+      width: 350px;
 
     }
 
     .header{
       display: grid;
-      grid-template-columns: 74px 54px 160px;
+      grid-template-columns: 90px 60px 180px;
       /* grid-template-rows: 1fr 1fr 1fr 300px; */
       
       
