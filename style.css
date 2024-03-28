@@ -136,14 +136,16 @@ width: 12px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 50px;
-   
-    
   }
+
+
   .content__items{
     
     place-self: center;
     padding: 50px;
   }
+
+  
   .TEXT{
     text-align: center;
     margin-top: 7px;
